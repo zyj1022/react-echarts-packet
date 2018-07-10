@@ -1,0 +1,67 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  background-color: #edf1f5; /* #3A3F46;*/
+}
+
+.title-bar {
+  background-color: #071A4C;
+  display: block;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 24px;
+  color: #31b1fd;
+}
+
+.title-bar h2 {
+  margin: 0;
+  padding: 0
+}
+
+.title-bar a {
+  float: right;
+  background: #e83d5a;
+  color: #fff;
+  font-size: 16px;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+.title-bar em {
+  font-style: normal;
+  color: #31b1fd;
+}
+
+.title-bar i {
+  font-style: normal;
+  color: #e83d5a;
+}
+
+.chart-list {}
+
+.row {
+  padding: 40px 60px;
+}
+
+.row::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+.col {
+  width: 50%;
+  float: left;
+}
+
+.box {
+  background: #fff; /* #272c33; */
+  padding: 20px;
+  margin: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(44, 56, 90, 0.1);
+  -webkit-box-shadow: 0 0 6px rgba(44, 56, 90, 0.1);
+  -moz-box-shadow: 0 0 6px rgba(44, 56, 90, 0.1);
+}
