@@ -65,3 +65,7 @@ html {
   -webkit-box-shadow: 0 0 6px rgba(44, 56, 90, 0.1);
   -moz-box-shadow: 0 0 6px rgba(44, 56, 90, 0.1);
 }
+
+.formbox {
+  padding: 20px 80px 0;
+}

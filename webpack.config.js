@@ -32,24 +32,38 @@ module.exports = {
     new UglifyjsWebpackPlugin()
   ],
   module: {
-    rules: [
-      {
-        test: /.jsx$/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ["env", "stage-0", "react"] // env --> es6, stage-0 --> es7
-          }
-        },
-        exclude: /node_modules/
-      }, {
-        test: /.(js)$/,
+    rules: [{
+      test: /.jsx$/,
+      use: {
         loader: 'babel-loader',
-        exclude: /node_modules/
-      }, {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader', 'postcss-loader']
-      }
+        options: {
+          presets: ["env", "stage-0", "react"] // env --> es6, stage-0 --> es7
+        }
+      },
+      exclude: /node_modules/
+    }, {
+      test: /.(js)$/,
+      loader: 'babel-loader',
+      exclude: /node_modules/
+    }, {
+      test: /\.css$/,
+      use: ['style-loader', 'css-loader', 'postcss-loader']
+    }
+    // {
+    //   test: /\.less$/,
+    //   use: [{
+    //       loader: 'css-loader'
+    //     },
+    //     'postcss-loader',
+    //     {
+    //       loader: 'less-loader',
+    //       options: {
+    //         javascriptEnabled: true,
+    //         modifyVars: {}
+    //       }
+    //     }
+    //   ]
+    // }
     ]
   },
   // mode: 'development',

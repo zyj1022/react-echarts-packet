@@ -93,6 +93,14 @@ const onEvents = {
 - Treemap
 - ……more
 
+## Echarts踩坑记
+
+echart在制作同一纬度正负轴Bar图的时候，如果有动态数据切换，就会发生多的bar莫名其妙出现在少bar的图表中。
+
+**解决办法：** 让每次切换的动态数据的数组长度相同。
+
+可以查看本demo实例中切换图例演示。
+
 ## License
 
 MIT License
