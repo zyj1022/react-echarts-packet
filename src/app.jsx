@@ -62,6 +62,7 @@ export default class App extends Component {
             <h2><em>React</em> + <i>Echarts</i> = <em>React-Echarts-Packet</em></h2>
         </div>
         <div className="formbox">
+          动态数据切换演示：
           <Select defaultValue="0" style={{ width: 220 }} onChange={this.handleChange}>
              <Option value="0">图例1</Option>
              <Option value="1">图例2</Option>
