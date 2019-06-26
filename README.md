@@ -69,8 +69,8 @@ const onEvents = {
      - width:
      - height
   }),
- - notMerge: bool,
- - lazyUpdate: bool,
+ - notMerge: bool,  // 可选，是否不跟之前设置的 option 进行合并，默认为 false，即合并。
+ - lazyUpdate: bool, // 可选，在设置完 option 后是否不立即更新图表，默认为 false，即立即更新。
  - style: object,
  - className: string
 
@@ -100,6 +100,12 @@ echart在制作同一纬度正负轴Bar图的时候，如果有动态数据切�
 **解决办法：** 让每次切换的动态数据的数组长度相同。
 
 可以查看本demo实例中切换图例演示。
+
+**补充解决方案：** [`notMerge: true`](https://github.com/apache/incubator-echarts/issues/10721)
+
+ - `option` 图表的配置项和数据
+ - `notMerge` 可选，是否不跟之前设置的 option 进行合并，默认为 false，即合并。
+ - `lazyUpdate` 可选，在设置完 option 后是否不立即更新图表，默认为 false，即立即更新。
 
 ## License
 

@@ -30,64 +30,61 @@ export const barOps = {
       bottom: "1%",
       containLabel: true
     },
-    xAxis: [
-      {
-        type: "value",
-        position: "bottom",
-        type: "value",
-        min: -100,
-        max: 100,
-        splitNumber: "5",
-        axisLabel: {
-          color: "#666",
-          formatter: (value, i) => {
-            return Math.abs(value) + "%";
-          }
-        },
-        axisTick: {
-          show: true,
-          lineStyle: {
-            color: "#e9e9e9"
-          }
-        },
-        axisLine: {
-          show: true,
-          lineStyle: {
-            color: "#e9e9e9"
-          }
-        },
-        splitLine: {
-          show: true,
-          lineStyle: {
-            color: "#e9e9e9"
-            // type: 'dashed',
-          }
-        },
-        min: -100,
-        max: 100
-      }
-    ],
-    yAxis: [
-      {
-        type: "category",
-        axisLabel: {
-          show: false
-        },
-        axisTick: {
-          show: false
-        },
-        axisLine: {
-          show: true,
-          lineStyle: {
-            color: "#b4b4b4"
-          }
-        },
-        inverse: true,
-        data: []
-      }
-    ],
+    xAxis: [{
+      type: "value",
+      position: "bottom",
+      type: "value",
+      min: -100,
+      max: 100,
+      splitNumber: "5",
+      axisLabel: {
+        color: "#666",
+        formatter: (value, i) => {
+          return Math.abs(value) + "%";
+        }
+      },
+      axisTick: {
+        show: true,
+        lineStyle: {
+          color: "#e9e9e9"
+        }
+      },
+      axisLine: {
+        show: true,
+        lineStyle: {
+          color: "#e9e9e9"
+        }
+      },
+      splitLine: {
+        show: true,
+        lineStyle: {
+          color: "#e9e9e9"
+          // type: 'dashed',
+        }
+      },
+      min: -100,
+      max: 100
+    }],
+    yAxis: [{
+      type: "category",
+      axisLabel: {
+        show: false
+      },
+      axisTick: {
+        show: false
+      },
+      axisLine: {
+        show: true,
+        lineStyle: {
+          color: "#b4b4b4"
+        }
+      },
+      inverse: true,
+      data: []
+    }],
     series: []
-  }
+  },
+  notMerge: true
 };
 
 export const barOps1 = {
@@ -115,64 +112,61 @@ export const barOps1 = {
       bottom: "1%",
       containLabel: true
     },
-    xAxis: [
-      {
-        type: "value",
-        position: "bottom",
-        type: "value",
-        min: -100,
-        max: 100,
-        splitNumber: "5",
-        axisLabel: {
-          color: "#666",
-          formatter: (value, i) => {
-            return Math.abs(value) + "%";
-          }
-        },
-        axisTick: {
-          show: true,
-          lineStyle: {
-            color: "#e9e9e9"
-          }
-        },
-        axisLine: {
-          show: true,
-          lineStyle: {
-            color: "#e9e9e9"
-          }
-        },
-        splitLine: {
-          show: true,
-          lineStyle: {
-            color: "#e9e9e9"
-            // type: 'dashed',
-          }
-        },
-        min: -100,
-        max: 100
-      }
-    ],
-    yAxis: [
-      {
-        type: "category",
-        axisLabel: {
-          show: false
-        },
-        axisTick: {
-          show: false
-        },
-        axisLine: {
-          show: true,
-          lineStyle: {
-            color: "#b4b4b4"
-          }
-        },
-        inverse: true,
-        data: []
-      }
-    ],
+    xAxis: [{
+      type: "value",
+      position: "bottom",
+      type: "value",
+      min: -100,
+      max: 100,
+      splitNumber: "5",
+      axisLabel: {
+        color: "#666",
+        formatter: (value, i) => {
+          return Math.abs(value) + "%";
+        }
+      },
+      axisTick: {
+        show: true,
+        lineStyle: {
+          color: "#e9e9e9"
+        }
+      },
+      axisLine: {
+        show: true,
+        lineStyle: {
+          color: "#e9e9e9"
+        }
+      },
+      splitLine: {
+        show: true,
+        lineStyle: {
+          color: "#e9e9e9"
+          // type: 'dashed',
+        }
+      },
+      min: -100,
+      max: 100
+    }],
+    yAxis: [{
+      type: "category",
+      axisLabel: {
+        show: false
+      },
+      axisTick: {
+        show: false
+      },
+      axisLine: {
+        show: true,
+        lineStyle: {
+          color: "#b4b4b4"
+        }
+      },
+      inverse: true,
+      data: []
+    }],
     series: []
-  }
+  },
+  notMerge: true
 };
 
 export const barOps2 = {
@@ -200,64 +194,61 @@ export const barOps2 = {
       bottom: "1%",
       containLabel: true
     },
-    xAxis: [
-      {
-        type: "value",
-        position: "bottom",
-        type: "value",
-        min: -100,
-        max: 100,
-        splitNumber: "5",
-        axisLabel: {
-          color: "#666",
-          formatter: (value, i) => {
-            return Math.abs(value) + "%";
-          }
-        },
-        axisTick: {
-          show: true,
-          lineStyle: {
-            color: "#e9e9e9"
-          }
-        },
-        axisLine: {
-          show: true,
-          lineStyle: {
-            color: "#e9e9e9"
-          }
-        },
-        splitLine: {
-          show: true,
-          lineStyle: {
-            color: "#e9e9e9"
-            // type: 'dashed',
-          }
-        },
-        min: -100,
-        max: 100
-      }
-    ],
-    yAxis: [
-      {
-        type: "category",
-        axisLabel: {
-          show: false
-        },
-        axisTick: {
-          show: false
-        },
-        axisLine: {
-          show: true,
-          lineStyle: {
-            color: "#b4b4b4"
-          }
-        },
-        inverse: true,
-        data: []
-      }
-    ],
+    xAxis: [{
+      type: "value",
+      position: "bottom",
+      type: "value",
+      min: -100,
+      max: 100,
+      splitNumber: "5",
+      axisLabel: {
+        color: "#666",
+        formatter: (value, i) => {
+          return Math.abs(value) + "%";
+        }
+      },
+      axisTick: {
+        show: true,
+        lineStyle: {
+          color: "#e9e9e9"
+        }
+      },
+      axisLine: {
+        show: true,
+        lineStyle: {
+          color: "#e9e9e9"
+        }
+      },
+      splitLine: {
+        show: true,
+        lineStyle: {
+          color: "#e9e9e9"
+          // type: 'dashed',
+        }
+      },
+      min: -100,
+      max: 100
+    }],
+    yAxis: [{
+      type: "category",
+      axisLabel: {
+        show: false
+      },
+      axisTick: {
+        show: false
+      },
+      axisLine: {
+        show: true,
+        lineStyle: {
+          color: "#b4b4b4"
+        }
+      },
+      inverse: true,
+      data: []
+    }],
     series: []
-  }
+  },
+  notMerge: true
 };
 
 export const barOps3 = {
@@ -285,69 +276,65 @@ export const barOps3 = {
       bottom: "1%",
       containLabel: true
     },
-    xAxis: [
-      {
-        type: "value",
-        position: "bottom",
-        type: "value",
-        min: -100,
-        max: 100,
-        splitNumber: "5",
-        axisLabel: {
-          color: "#666",
-          formatter: (value, i) => {
-            return Math.abs(value) + "%";
-          }
-        },
-        axisTick: {
-          show: true,
-          lineStyle: {
-            color: "#e9e9e9"
-          }
-        },
-        axisLine: {
-          show: true,
-          lineStyle: {
-            color: "#e9e9e9"
-          }
-        },
-        splitLine: {
-          show: true,
-          lineStyle: {
-            color: "#e9e9e9"
-            // type: 'dashed',
-          }
-        },
-        min: -100,
-        max: 100
-      }
-    ],
-    yAxis: [
-      {
-        type: "category",
-        axisLabel: {
-          show: false
-        },
-        axisTick: {
-          show: false
-        },
-        axisLine: {
-          show: true,
-          lineStyle: {
-            color: "#b4b4b4"
-          }
-        },
-        inverse: true,
-        data: []
-      }
-    ],
+    xAxis: [{
+      type: "value",
+      position: "bottom",
+      type: "value",
+      min: -100,
+      max: 100,
+      splitNumber: "5",
+      axisLabel: {
+        color: "#666",
+        formatter: (value, i) => {
+          return Math.abs(value) + "%";
+        }
+      },
+      axisTick: {
+        show: true,
+        lineStyle: {
+          color: "#e9e9e9"
+        }
+      },
+      axisLine: {
+        show: true,
+        lineStyle: {
+          color: "#e9e9e9"
+        }
+      },
+      splitLine: {
+        show: true,
+        lineStyle: {
+          color: "#e9e9e9"
+          // type: 'dashed',
+        }
+      },
+      min: -100,
+      max: 100
+    }],
+    yAxis: [{
+      type: "category",
+      axisLabel: {
+        show: false
+      },
+      axisTick: {
+        show: false
+      },
+      axisLine: {
+        show: true,
+        lineStyle: {
+          color: "#b4b4b4"
+        }
+      },
+      inverse: true,
+      data: []
+    }],
     series: []
-  }
+  },
+  notMerge: true
 };
 
 export const seriesData = [
-  [
-    {
+  [{
       name: "",
       type: "bar",
       barGap: "-100%",
@@ -355,7 +342,13 @@ export const seriesData = [
       label: {
         normal: {
           show: false,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [0]
@@ -368,7 +361,13 @@ export const seriesData = [
       label: {
         normal: {
           show: false,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, 0]
@@ -381,7 +380,13 @@ export const seriesData = [
       label: {
         normal: {
           show: true,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , 80]
@@ -394,7 +399,13 @@ export const seriesData = [
       label: {
         normal: {
           show: true,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , 35]
@@ -407,7 +418,13 @@ export const seriesData = [
       label: {
         normal: {
           show: true,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , 55]
@@ -420,7 +437,13 @@ export const seriesData = [
       label: {
         normal: {
           show: true,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , , 45]
@@ -433,7 +456,13 @@ export const seriesData = [
       label: {
         normal: {
           show: false,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , , , 0]
@@ -446,7 +475,13 @@ export const seriesData = [
       label: {
         normal: {
           show: false,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , , , , 0]
@@ -460,7 +495,13 @@ export const seriesData = [
       label: {
         normal: {
           show: false,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: ["-0"]
@@ -472,8 +513,14 @@ export const seriesData = [
       stack: "",
       label: {
         normal: {
-          show: true,
-          position: "right"
+          show: false,
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, "-0"]
@@ -486,7 +533,13 @@ export const seriesData = [
       label: {
         normal: {
           show: true,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , "-80"]
@@ -499,7 +552,13 @@ export const seriesData = [
       label: {
         normal: {
           show: true,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , "-35"]
@@ -512,7 +571,13 @@ export const seriesData = [
       label: {
         normal: {
           show: true,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , "-55"]
@@ -525,7 +590,13 @@ export const seriesData = [
       label: {
         normal: {
           show: true,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , , "-45"]
@@ -538,7 +609,13 @@ export const seriesData = [
       label: {
         normal: {
           show: false,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , , , "-0"]
@@ -551,14 +628,19 @@ export const seriesData = [
       label: {
         normal: {
           show: false,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , , , , "-0"]
     }
   ],
-  [
-    {
+  [{
       name: "",
       type: "bar",
       barGap: "-100%",
@@ -566,7 +648,13 @@ export const seriesData = [
       label: {
         normal: {
           show: false,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [0]
@@ -579,7 +667,13 @@ export const seriesData = [
       label: {
         normal: {
           show: false,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, 0]
@@ -592,7 +686,13 @@ export const seriesData = [
       label: {
         normal: {
           show: true,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , 45.96]
@@ -605,10 +705,16 @@ export const seriesData = [
       label: {
         normal: {
           show: true,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
-      data: [, , ,  36]
+      data: [, , , 36]
     },
     {
       name: "",
@@ -617,8 +723,14 @@ export const seriesData = [
       stack: "",
       label: {
         normal: {
-          show: true,
-          position: "right"
+          show: false,
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , 0]
@@ -630,8 +742,14 @@ export const seriesData = [
       stack: "",
       label: {
         normal: {
-          show: true,
-          position: "right"
+          show: false,
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , 0]
@@ -643,11 +761,17 @@ export const seriesData = [
       stack: "",
       label: {
         normal: {
-          show: true,
-          position: "right"
+          show: false,
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
-      data: [, , , , ,  0]
+      data: [, , , , , 0]
     },
 
     {
@@ -658,7 +782,13 @@ export const seriesData = [
       label: {
         normal: {
           show: false,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [0]
@@ -671,7 +801,13 @@ export const seriesData = [
       label: {
         normal: {
           show: false,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, 0]
@@ -684,7 +820,13 @@ export const seriesData = [
       label: {
         normal: {
           show: true,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , "-45.96"]
@@ -697,7 +839,13 @@ export const seriesData = [
       label: {
         normal: {
           show: true,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , "-36"]
@@ -709,8 +857,14 @@ export const seriesData = [
       stack: "",
       label: {
         normal: {
-          show: true,
-          position: "right"
+          show: false,
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , 0]
@@ -722,8 +876,14 @@ export const seriesData = [
       stack: "",
       label: {
         normal: {
-          show: true,
-          position: "right"
+          show: false,
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , 0]
@@ -735,15 +895,20 @@ export const seriesData = [
       stack: "",
       label: {
         normal: {
-          show: true,
-          position: "right"
+          show: false,
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , , 0]
     }
   ],
-  [
-    {
+  [{
       name: "",
       type: "bar",
       barGap: "-100%",
@@ -751,7 +916,13 @@ export const seriesData = [
       label: {
         normal: {
           show: false,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [0]
@@ -764,7 +935,13 @@ export const seriesData = [
       label: {
         normal: {
           show: false,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, 0]
@@ -777,7 +954,13 @@ export const seriesData = [
       label: {
         normal: {
           show: false,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , 0]
@@ -790,7 +973,13 @@ export const seriesData = [
       label: {
         normal: {
           show: true,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , 85.96]
@@ -803,7 +992,13 @@ export const seriesData = [
       label: {
         normal: {
           show: true,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , 16]
@@ -815,8 +1010,14 @@ export const seriesData = [
       stack: "",
       label: {
         normal: {
-          show: true,
-          position: "right"
+          show: false,
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , 0]
@@ -828,8 +1029,14 @@ export const seriesData = [
       stack: "",
       label: {
         normal: {
-          show: true,
-          position: "right"
+          show: false,
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , , 0]
@@ -841,8 +1048,14 @@ export const seriesData = [
       stack: "",
       label: {
         normal: {
-          show: true,
-          position: "right"
+          show: false,
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , , , 0]
@@ -856,7 +1069,13 @@ export const seriesData = [
       label: {
         normal: {
           show: false,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [0]
@@ -869,7 +1088,13 @@ export const seriesData = [
       label: {
         normal: {
           show: false,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, 0]
@@ -882,7 +1107,13 @@ export const seriesData = [
       label: {
         normal: {
           show: false,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , 0]
@@ -895,7 +1126,13 @@ export const seriesData = [
       label: {
         normal: {
           show: true,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , "-85.96"]
@@ -908,7 +1145,13 @@ export const seriesData = [
       label: {
         normal: {
           show: true,
-          position: "right"
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , "-16"]
@@ -920,8 +1163,14 @@ export const seriesData = [
       stack: "",
       label: {
         normal: {
-          show: true,
-          position: "right"
+          show: false,
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , 0]
@@ -933,8 +1182,14 @@ export const seriesData = [
       stack: "",
       label: {
         normal: {
-          show: true,
-          position: "right"
+          show: false,
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , , 0]
@@ -946,8 +1201,14 @@ export const seriesData = [
       stack: "",
       label: {
         normal: {
-          show: true,
-          position: "right"
+          show: false,
+          position: "right",
+          formatter: params => {
+            if (params.data !== 0) {
+              return parseFloat(Math.abs((params.data * -1).toFixed(2))) + '%';
+            }
+          }
+
         }
       },
       data: [, , , , , , 0]
