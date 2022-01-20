@@ -7,7 +7,7 @@ React + Echarts = React-Echarts-Packet
 ## 安装方法 Installation
 `npm install react-echarts-packet echarts --save`
 
-## 预览 [Demo](http://zyj1022.github.io/demos/react-echarts-packet/)
+## 预览 [Demo](http://codeffe.com/demo/react-echarts-packet/)
 
 ## 本机运行
 

@@ -1,76 +1,81 @@
-const path = require('path');
-const webpack = require('webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
-const UglifyjsWebpackPlugin = require('uglifyjs-webpack-plugin');
+const path = require("path");
+const webpack = require("webpack");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const UglifyjsWebpackPlugin = require("uglifyjs-webpack-plugin");
 
 module.exports = {
   entry: {
-    app: path.join(__dirname, './app.js')
+    app: path.join(__dirname, "./app.js"),
   },
   output: {
-    filename: '[name].[hash:8].js',
-    path: path.join(__dirname, './dist'),
-    publicPath: ''
+    filename: `[name].[contenthash:8].js`,
+    path: path.join(__dirname, "./dist"),
+    publicPath: "",
   },
   resolve: {
-    extensions: [' ', '.js', '.jsx']
+    extensions: [" ", ".js", ".jsx"],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'index.html',
-      filename: 'index.html',
-      chunks: ['app'],
+      template: "index.html",
+      filename: "index.html",
+      chunks: ["app"],
       // hash: true,
       minify: {
-        removeAttributeQuotes: true
-      }
+        removeAttributeQuotes: true,
+      },
     }),
-    new CleanWebpackPlugin([path.join(__dirname, './dist')]),
-    new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin(),
-    new UglifyjsWebpackPlugin()
+    new CleanWebpackPlugin(),
+    new UglifyjsWebpackPlugin(),
   ],
   module: {
-    rules: [{
-      test: /.jsx$/,
-      use: {
-        loader: 'babel-loader',
-        options: {
-          presets: ["env", "stage-0", "react"] // env --> es6, stage-0 --> es7
-        }
+    rules: [
+      {
+        test: /\.(ts|js)x?$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+        },
+        exclude: /node_modules/,
       },
-      exclude: /node_modules/
-    }, {
-      test: /.(js)$/,
-      loader: 'babel-loader',
-      exclude: /node_modules/
-    }, {
-      test: /\.css$/,
-      use: ['style-loader', 'css-loader', 'postcss-loader']
-    }
-    // {
-    //   test: /\.less$/,
-    //   use: [{
-    //       loader: 'css-loader'
-    //     },
-    //     'postcss-loader',
-    //     {
-    //       loader: 'less-loader',
-    //       options: {
-    //         javascriptEnabled: true,
-    //         modifyVars: {}
-    //       }
-    //     }
-    //   ]
-    // }
-    ]
+      {
+        test: /.(js)$/,
+        loader: "babel-loader",
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader", "postcss-loader"],
+      },
+      // {
+      //   test: /\.less$/,
+      //   use: [{
+      //       loader: 'css-loader'
+      //     },
+      //     'postcss-loader',
+      //     {
+      //       loader: 'less-loader',
+      //       options: {
+      //         javascriptEnabled: true,
+      //         modifyVars: {}
+      //       }
+      //     }
+      //   ]
+      // }
+    ],
   },
-  // mode: 'development',
+  optimization: {
+    runtimeChunk: true,
+    removeAvailableModules: false,
+    removeEmptyChunks: false,
+    splitChunks: false,
+    usedExports: true,
+  },
   devServer: {
-    contentBase: path.resolve(__dirname, './dist'),
-    host: 'localhost',
-    compress: true,
-    port: 9900
-  }
+    historyApiFallback: true,
+    open: true,
+    hot: true,
+    port: 9900,
+  },
 };
